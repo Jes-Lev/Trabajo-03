@@ -28,11 +28,11 @@ var material = new THREE.MeshBasicMaterial( {
 var wireframeCube = new THREE.Mesh ( geometry, material )
 scene.add( wireframeCube )
 
-// ambient light
+
 var ambientLight = new THREE.AmbientLight ( 0xffffff, 0.2)
 scene.add( ambientLight )
 
-// point light
+
 var pointLight = new THREE.PointLight( 0xffffff, 1 );
 pointLight.position.set( 25, 50, 25 );
 scene.add( pointLight );
